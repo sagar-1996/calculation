@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+    <title>Calculation Form</title>
+
+    <style>
+    h3{
+        background-color: #8080ff;
+        color: white;
+    }
+    .col-form-label{
+        color: white;
+        font: 18px Arial, ;
+    }
+    .form-control{
+        background-color: #f2f2f2;
+    }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <form class=" mt-5" style="background-color:#bfbfbf">
+        <h3 class="p-2 mb-1  text-white text-center">Product Details</h3>
+        <div class="form-row ">
+            <label class="col-sm-4 col-form-label pl-5"  for="name"><b>Enquiry No</b></label>
+            <input type="text" class="form-control col-sm-6 mt-2" name="name"size="16">
+         </div>
+    <div class="form-row ">
+    <label class="col-sm-4 col-form-label pl-5"><b>Product Type</b></label>
+    <input type="text" name="city"class="form-control col-sm-6 mt-2"list="citynames">
+<datalist id="citynames">
+<option value="Boston">
+<option value="Cambridge">
+</datalist>
+</div>
+<div class="form-row ">
+    <label class="col-sm-4 col-form-label pl-5"  for="name"><b>Standard</b></label>
+    <input type="text" class="form-control col-sm-6 mt-2 " name="name"size="16">
+ </div>
+ 
+ <div class="form-row ">
+    <label class="col-sm-4 col-form-label pl-5 pl-5 "  for="name"><b>Position</b></label>
+    <input type="text" class="form-control col-sm-6 mt-2 "  sname="name"size="16">
+ </div>
+ <div class="form-row ">
+    <label class="col-sm-4 col-form-label pl-5"><b>Model No</b></label>
+    <input type="text" name="city"class="form-control col-sm-2 mt-2" list="citynames">
+<datalist id="citynames">
+<option value="Boston">
+<option value="Cambridge">
+</datalist>
+<label class="col-sm-2 col-form-label pl-2" ><b>Size</b></label>
+    <input type="text" name="city"class="form-control col-sm-2 mt-2" list="citynames">
+<datalist id="citynames">
+<option value="Boston">
+<option value="Cambridge">
+</datalist> 
+</div>
+<div class="form-row">
+    <label class="col-sm-4 col-form-label pl-5"><b>Pressure</b></label>
+    <input type="text" name="ity"class="form-control col-sm-2 mt-2 " list="citynames">
+<datalist id="citynames">
+<option value="Boston">
+<option value="Cambridge">
+</datalist>
+<label class="col-sm-2 col-form-label pl-2" ><b>Class</b></label>
+    <input type="text " name="city"class="form-control col-sm-2 mt-2" list="citynames">
+<datalist id="citynames">
+<option value="Boston">
+<option value="Cambridge">
+</datalist> 
+</div>
+<div class="form-row ">
+    <label class="col-sm-4 col-form-label pl-5"><b>Quantity</b></label>
+    <input type="text" name="city"class="form-control col-sm-2 mt-2" list="citynames">
+<datalist id="citynames">
+<option value="Boston">
+<option value="Cambridge">
+</datalist>
+<label class="col-sm-2 col-form-label pl-2 " ><b>Matrial</b></label>
+    <input type="text" name="city"class="form-control col-sm-2 mt-2" list="citynames">
+<datalist id="citynames">
+<option value="Boston">
+<option value="Cambridge">
+</datalist> 
+</div>
+<div class="form-row">
+    <label class="col-sm-4 col-form-label pl-5 "><b>Gasket</b></label>
+    <input type="text" name="city"class="form-control col-sm-2 mt-2" list="citynames">
+<datalist id="citynames">
+<option value="Boston">
+<option value="Cambridge">
+</datalist>
+</div>
+<button  class="btn btn-success w-25  mt-2 mb-5" style="margin-left: 60%; font-size: 20px;" id="button">Next</button>
+</form>
+</div>
+</body>
+</html>
